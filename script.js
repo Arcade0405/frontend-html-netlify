@@ -1,7 +1,7 @@
 async function connectBackend() {
   try {
     // URL backend của bạn (Render cung cấp)
-    const response = await fetch("https://backend-node-render-kscc.onrender.com");
+    const response = await fetch("https://backend-node-render-kscc.onrender.com/");
 
     // Chuyển dữ liệu nhận được sang JSON
     const data = await response.json();
